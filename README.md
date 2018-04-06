@@ -12,3 +12,45 @@ Going to use the Web Speech API to build a voice powered note app that does 3 th
 
 __Project Status - In Process: 04/05/2018__
 
+----
+
+
+### Table of Contents
+
+  -  Description
+  -  What I Learned From The Exercise
+  -  Website Technologies Used
+  -  How to View This App
+  -  File and Directory Structure
+  -  Revision History
+
+----
+
+
+### Description
+.
+
+
+
+----
+
+
+### What I Learned From The Exercise
+- To work with the Web Speech API.
+
+
+----
+
+
+### Website Technologies Used
+
+Description of website technologies used to develop this app.
+
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Web Speech API
+
+----
+
