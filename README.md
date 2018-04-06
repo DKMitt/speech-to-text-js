@@ -75,6 +75,11 @@ How to use this App:
 │   │   │
 │   │   └── style.css
 │   │
+│   ├── ico
+│   │   │
+│   │   └── 
+│   │
+│   │
 │   ├── img
 │   │   │
 │   │   └── 
