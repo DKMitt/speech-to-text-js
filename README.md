@@ -8,7 +8,7 @@ Going to use the Web Speech API to build a voice powered note app that does 3 th
  - Save voice notes to localStorage.
  - Display all of the saved notes and give the option to either listen or delete them.
 
- 
+
 
 __Project Status - In Process: 04/05/2018__
 
@@ -59,9 +59,9 @@ Description of website technologies used to develop this app.
 
 How to use this App:
 
-1. 
-2. 
-3. 
+1. ​
+2. ​
+3. ​
 
    ##### [Demo - Click Here](http://www.dkmitt.com/mycoding/)
 
@@ -78,7 +78,6 @@ How to use this App:
 │   ├── ico
 │   │   │
 │   │   └── 
-│   │
 │   │
 │   ├── img
 │   │   │
@@ -104,4 +103,3 @@ How to use this App:
 Description of revisions - __In Process: 04/05/2018__
 
   - [x] Dev - file and directory structure creation  - 04/05/2018
-  
