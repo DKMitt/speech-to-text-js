@@ -54,3 +54,49 @@ Description of website technologies used to develop this app.
 
 ----
 
+
+### How to Use This App
+
+How to use this App:
+
+1. 
+2. 
+3. 
+
+   ##### [Demo - Click Here](http://www.dkmitt.com/mycoding/)
+
+### File and Directory Structure
+
+```
+.
+├── assets
+│   │
+│   ├── css
+│   │   │
+│   │   └── style.css
+│   │
+│   ├── img
+│   │   │
+│   │   └── 
+│   │
+│   └── js
+│       │
+│       └── app.js
+│ 
+├── .gitignore
+│
+├── index.html
+│
+└── README.md     
+       
+```
+
+----
+
+
+### Revision History 
+
+Description of revisions - __In Process: 04/05/2018__
+
+  - [x] Dev - file and directory structure creation  - 04/05/2018
+  
