@@ -33,9 +33,7 @@ body {
  
 /* container - place inside each section or around the entire page depending on your layout */
 .container {
-	width: 960px;
 	margin: 0 auto;
-	text-align: left;
 	position: relative;
 }
  
@@ -83,9 +81,13 @@ body {
 #footer {
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
 
-
-
+}
 
 .align-center {
 	text-align: center;
