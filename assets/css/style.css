@@ -33,12 +33,18 @@ body {
  
 /* container - place inside each section or around the entire page depending on your layout */
 .container {
-	margin: 0 auto;
+	margin: 20px 20px;
 	position: relative;
+	
 }
 
 .width-full-100 {
 	width: 100%;
+	padding: 0 20px;
+}
+
+.red {
+	color: red;
 }
  
 /* for clearing any floats <br class=&quot;clearfloat&quot; /> */
