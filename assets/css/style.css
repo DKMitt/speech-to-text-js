@@ -36,6 +36,10 @@ body {
 	margin: 0 auto;
 	position: relative;
 }
+
+.width-full-100 {
+	width: 100%;
+}
  
 /* for clearing any floats <br class=&quot;clearfloat&quot; /> */
 .clearfloat {
