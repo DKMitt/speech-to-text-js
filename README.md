@@ -10,7 +10,7 @@ Going to use the Web Speech API to build a voice powered note app that does 3 th
 
 
 
-__Project Status - In Process: 04/05/2018__
+__Project Status - In Process: 04/07/2018__
 
 ----
 
@@ -100,6 +100,7 @@ How to use this App:
 
 ### Revision History 
 
-Description of revisions - __In Process: 04/05/2018__
+Description of revisions - __In Process: 04/07/2018__
 
   - [x] Dev - file and directory structure creation  - 04/05/2018
+  - [x] Dev - starting code  - 04/06/2018
