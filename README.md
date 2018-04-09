@@ -1,8 +1,8 @@
 ## Converting from Speech to Text with JavaScript
 
-Purpose of this app is to experiment with the Web Speech API by using the browser interface which allows you to record human speech and convert it into text and then convert the text back into speech. 
+The purpose of this app is to experiment with the Web Speech API by using the browser interface which allows you to record human speech and convert it into text and then convert the text back into speech. 
 
-Going to use the Web Speech API to build a voice powered note app that does 3 things:
+This app will use the Web Speech API to build a voice powered note app to do 3 things:
 
  - Takes notes by using voice-to-text or keyboard input.
  - Save voice notes to localStorage.
@@ -10,7 +10,7 @@ Going to use the Web Speech API to build a voice powered note app that does 3 th
 
 
 
-__Project Status - In Process: 04/07/2018__
+__Project Status - In Process: 04/09/2018__
 
 ----
 
@@ -28,7 +28,16 @@ __Project Status - In Process: 04/07/2018__
 
 
 ### Description
-.
+
+The purpose of this app is to experiment with the Web Speech API by using the browser interface which allows you to record human speech and convert it into text and then convert the text back into speech. 
+
+This app will use the Web Speech API to build a voice powered note app to do 3 things:
+
+ - Takes notes by using voice-to-text or keyboard input.
+ - Save voice notes to localStorage.
+ - Display all of the saved notes and give the option to either listen or delete them.
+
+The Web Speech API will be separated into two seperate interfaces. The first will be the SpeechRecognition for understanding a human voice and turning it into text. The second will be the SpeechSynthesis for reading strings of text out loud in a computer generated voice.
 
 
 
@@ -63,7 +72,7 @@ How to use this App:
 2. ​
 3. ​
 
-   ##### [Demo - Click Here](http://www.dkmitt.com/mycoding/)
+   ##### [Demo - Click Here](http://www.dkmitt.com/)
 
 ### File and Directory Structure
 
@@ -100,7 +109,8 @@ How to use this App:
 
 ### Revision History 
 
-Description of revisions - __In Process: 04/07/2018__
+Description of revisions - __In Process: 04/09/2018__
 
   - [x] Dev - file and directory structure creation  - 04/05/2018
   - [x] Dev - starting code  - 04/06/2018
+  - [x] Dev - readme update  - 04/09/2018
