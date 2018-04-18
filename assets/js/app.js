@@ -142,3 +142,51 @@ function readOutLoud(message) {
 	window.SpeechSynthesis.speak(speech);
 }
 
+
+// Helper Functions
+
+function renderNotes(notes) {
+	var html = '';
+	if(notes.length) {
+		notes.forEach(function(note) {
+			html += `<li class="note">
+			<p class="header">
+			<span class="date">${note.date}</span>
+			<a href="#" class="listen-note" title="Listen to Note">Listen to Note</a>
+			<a href="#" class="delete-note" title="Delete Note">Delete Note</a>
+			</p>
+			<p class="content">${note.content}</p>
+			</li>`;
+		});
+	} else {
+		html = '<li><p class="content">You don\'t have any notes yet.</p></li>';
+	}
+	notesList.html(html);
+}
+
+
+function saveNote(dateTime, content) {
+	localStorage.setItem('note-' + dateTime, content);
+}
+
+
+function getAllNotes() {
+	var notes = [];
+	var key;
+	for (var i = 0; i < localStorage.length; i++) {
+		key = localStorage.key(i);
+
+		if(key.substring(0,5) == 'note-') {
+			notes.push({
+				date: key.replace('note-', ''),
+				content: localStorage.getItem(localStorage.key(i))
+			});
+		}
+	}
+	return notes;
+}
+
+
+function deleteNote(dateTime) {
+	localStorage.removeItem('note-' + dateTime);
+}
