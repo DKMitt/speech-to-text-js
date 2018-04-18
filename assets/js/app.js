@@ -75,4 +75,56 @@ recognition.onerror = function(event) {
 
 //  buttons and input
 
+$('#start-record-btn').on('click', function(e) {
+	if (noteContent.length) {
+		noteContent += '';
+	}
+	recognition.start();
+});
+
+$('#pause-record-btn').on('click', function(e) {
+	recognition.stop();
+	instructions.text('Voice recognition has been paused.');
+});
+
+// sync the text inside the text area with the noteContent variable.
+noteTextarea.on('input', function() {
+	noteContent = $(this).val();
+});
+
+$('#save-note-btn').on('click', function(e) {
+	recognition.stop();
+
+	if(!noteContent.length) {
+		instructions.text('Could not save empty note. Please add a message to your note.');
+	} else {
+
+		// Saves note to local storage
+		// The key is the dateTime with seconds, the value is the contents of the note
+		saveNote(new Date().toLocaleString(), noteContent);
+
+		// Resets the variables and updates the UI
+		noteContent = '';
+		renderNotes(getAllNotes());
+		noteTextarea.val('');
+		instructions.text('Notes saved successfully.');
+	}
+});
+
+notesList.on('click', function(e) {
+	e.preventDefault();
+	var target = $(e.target);
+
+	// Listen to the selected note
+	if(target.hasClass('listen-note')) {
+		var content = target.closest('.note').find('.content').text();
+		readOutLoud(content);
+	}
+	// Deletes note
+	if(target.hasClass('delete-note')) {
+		var dateTime = target.siblings('.date').text();
+		deleteNote(dateTime);
+		target.closest('.note').remove();
+	}
+});
 
