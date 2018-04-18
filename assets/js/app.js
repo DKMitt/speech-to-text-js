@@ -128,3 +128,17 @@ notesList.on('click', function(e) {
 	}
 });
 
+
+// Speech Synthesis
+
+function readOutLoud(message) {
+	var speech = new SpeechSynthesisUtterance();
+
+	speech.text = message;
+	speech.volume = 1;
+	speech.rate = 1;
+	speech.pitch = 3;
+
+	window.SpeechSynthesis.speak(speech);
+}
+
