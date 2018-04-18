@@ -13,7 +13,7 @@ catch(e); {
 }
 
 
-// Setup for  Voice Recognition handlers that listen for changes to the status of the recognition
+// Setup for Voice Recognition handlers that listen for changes to the status of the recognition
 
 recognition.onstart = function() {
 	instructions.text('Voice Recognition Activated! Try speaking into the microphone.');
@@ -46,3 +46,15 @@ recognition.onresult = function(event) {
 	noteContent += transcript;
 	noteTextarea.val(noteContent);
 }
+
+
+// Android devices have a bug that causes things to be repeated twice.
+// By using the below code this can be resolved.
+
+var mobileRepeatBug = (current == 1 && transcript == event.result[0][0].transcript);
+
+if(!mobileRepeatBug) {
+	noteContent += transcript;
+	noteTextarea.val(noteContent);
+}
+
