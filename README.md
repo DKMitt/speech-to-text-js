@@ -10,7 +10,7 @@ This app will use the Web Speech API to build a voice powered note app to do 3 t
 
 
 
-__Project Status - In Process: 04/09/2018__
+__Project Status - Working: 05/28/2018__
 
 ----
 
@@ -85,15 +85,15 @@ How to use this App:
 │   │
 │   ├── ico
 │   │   │
-│   │   └── 
+│   │   └── favicon.ico
 │   │
 │   ├── img
 │   │   │
-│   │   └── 
+│   │   └── code-mic-150.png
 │   │
 │   └── js
 │       │
-│       └── app.js
+│       └── script.js
 │ 
 ├── .gitignore
 │
@@ -108,8 +108,10 @@ How to use this App:
 
 ### Revision History 
 
-Description of revisions - __In Process: 04/09/2018__
+Description of revisions - __Working: 05/28/2018__
 
-  - [x] Dev - file and directory structure creation  - 04/05/2018
-  - [x] Dev - starting code  - 04/06/2018
-  - [x] Dev - readme update  - 04/09/2018
+  - [x] Dev - file and directory structure updated - 05/28/2018
+  - [x] Dev - starting code - 04/06/2018
+  - [x] Dev - styling update - 05/28/2018
+  - [x] Dev - completed code - 05/28/2018
+  - [x] Dev - readme update - 05/28/2018
