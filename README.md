@@ -1,5 +1,5 @@
 ## Voice Note App
-###Converting from Speech to Text with JavaScript
+### Converting from Speech to Text with JavaScript
 
 The purpose of this app is to experiment with the Web Speech API by using the browser interface which allows you to record human speech and convert it into text and then convert the text back into speech. 
 
@@ -9,7 +9,7 @@ This app will use the Web Speech API to build a voice powered note app to do 3 t
  - Save voice notes to localStorage.
  - Display all of the saved notes and give the option to either listen or delete them.
 
-<a href="http://www.dkmitt.com/mycoding/voice-note-app" target="_blank">Demo - Click Here</a>
+[Demo - Click Here](http://www.dkmitt.com/mycoding/voice-note-app) 
 
 
 __Project Status - Completed & Working: 05/28/2018__
@@ -66,7 +66,7 @@ How to use this App:
 2. ​
 3. ​
 
-   <a href="http://www.dkmitt.com/mycoding/voice-note-app" target="_blank">Demo - Click Here</a>
+  [Demo - Click Here](http://www.dkmitt.com/mycoding/voice-note-app) 
 
 ### File and Directory Structure
 
