@@ -9,7 +9,7 @@ This app will use the Web Speech API to build a voice powered note app to do 3 t
  - Save voice notes to localStorage.
  - Display all of the saved notes and give the option to either listen or delete them.
 
-[Demo - Click Here](http://www.dkmitt.com/mycoding/voice-note-app) 
+[Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app) 
 
 
 __Project Status - Completed & Working: 05/28/2018__
@@ -66,7 +66,7 @@ How to use this App:
 2. ​
 3. ​
 
-  [Demo - Click Here](http://www.dkmitt.com/mycoding/voice-note-app) 
+  [Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app) 
 
 ### File and Directory Structure
 
