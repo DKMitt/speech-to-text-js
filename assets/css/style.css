@@ -1,112 +1,96 @@
-/*
-Theme Name:
-Theme URI:
-Description:
-Version: 1.0
-Author:
-Author URI:
-*/
- 
-/* reset styles */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0; padding: 0;  border: 0; outline: 0; font-size: 100%;
-	vertical-align: baseline; background: transparent;
+ul {
+    list-style: none;
+    padding: 0;
 }
-body { line-height: 1; }
-ol, ul { list-style: none; }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; }
-:focus { outline: 0; }
-ins { text-decoration: none; }
-del { text-decoration: line-through; }
-table { border-collapse: collapse; border-spacing: 0; }
- 
-body {
-	font-size: 62.5%;
-	text-align: center;
-	color: #000000;
+
+p {
+    color: #444;
 }
- 
-/* container - place inside each section or around the entire page depending on your layout */
+
+button:focus {
+    outline: 0;
+}
+
 .container {
-	margin: 20px 20px;
-	position: relative;
-	
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 50px;
+    text-align: center;
 }
 
-.width-full-100 {
-	width: 100%;
-	padding: 0 20px;
+.container h1 {
+    margin-bottom: 20px;
 }
 
-.red {
-	color: red;
-}
- 
-/* for clearing any floats <br class=&quot;clearfloat&quot; /> */
-.clearfloat {
-    clear:both;
-    height:0;
-    font-size: 1px;
-    line-height: 0px;
-}
- 
-/*--- header section - put whatever you want here ---*/
-#header {
-}
- 
-/*--- horizontal &quot;block&quot; menu ---*/
-#menu {
-	float: left;
-}
-#menu li {
-	display: block;
-	float: left;
-}
-#menu li a {
-	display: block;
-	text-decoration: none;
-	height: 50px;
-	width: 125px;
-	padding: 5px 10px 5px 10px;
-}
-/* wordpress specific menu stylings */
-#menu li.current_page_item a {
-}
-#menu li.first a {
-}
-#menu li.last a {
-}
- 
-/*--- content section - put whatever you want here ---*/
-#content {
-	font: 1.2em Verdana, Arial, Helvetica, sans-serif;
-}
- 
-/*--- footer section - put whatever you want here ---*/
-#footer {
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    overflow: auto;
-
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
 }
 
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #e64427;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 20px 0;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 30px;
+}
+
+.align-center img {
+	padding-top: 10px;
+}
 .align-center {
+	text-align: center; 
+}
+
+.center {
 	text-align: center;
+	width: 100%;
 }
 
-.pt-40 {
-	padding-top: 40px;
-}
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 25px;
+    }
 
-.pt-50 {
-	padding-top: 50px;
-}
+    button {
+        margin-bottom: 10px;
+    }
+
+}   

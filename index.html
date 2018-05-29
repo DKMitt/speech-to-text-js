@@ -1,79 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speech to Text Note App</title>
-    <meta name="description" content="Speech to Text Note App">
-    <meta name="author" content="Darryl Mittlestaedt">
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <!-- Custom styles -->
-	<link href="assets/css/style.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.0.0/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-Pu87tkhdc8aoo+5M/Coc7ErjxhR36ayOFNloPU+tR/4PamJKHHjhK9B0EBGKxNet" crossorigin="anonymous">
-</head>
-<body>
-    <div class="clearfix">
-    <div class="container">
-        <div class="row">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Voice Note App</title>
+        <meta name="description" content="A Voice Note App that allows you to take voice and/or text notes and play them back.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="assets/ico/favicon.ico">
+		<!-- Custom styles -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<!-- Bootstrap core CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.1/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-0Mou2qXGeXK7k/Ue/a1hspEVcEP2zCpoQZw8/MPeUgISww+VmDJcy2ri9tX0a6iy" crossorigin="anonymous">
         
-            <div class="align-center pt-40 width-full-100">
-                <img src="assets/img/code-mic-150.png" alt="Code Mic Logo"><h1>Speech to Text Note App</h1>
-                <p class="">.</p>
-                <h4 class="no-browser-support">Sorry, Your Browser Does Not Support the Web Speech API.</h4>
-                <h4 class="no-browser-support">Please Try Opening This Demo With Google Chrome or Firefox.</h4>
+    </head>
+    <body>
+        <div class="container-fluid align-center">
+			<img src="assets/img/code-mic-150.png" alt="Voice Note App Logo">
+            <h1>Voice Note App</h1>
+            <p class="page-description">This app allows you to take voice and/or text notes and play them back.</p>
+			<hr>
+            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+            <div class="app">
+				<div class="row">
+					<div class="col-md-6 align-center">
+						<h3>Add New Voice Note</h3>
+						<div class="input-single">
+							<textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+						</div>         
+						<button id="start-record-btn" class="btn-success" title="Start Recording">Start Recognition</button>
+						<button id="pause-record-btn" class="btn-warning" title="Pause Recording">Pause Recognition</button>
+						<button id="save-note-btn" class="btn-info" title="Save Note">Save Note</button>   
+						<p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+					</div>
+					<div class="col-md-6 align-center">	
+						<h3>My Voice Notes</h3>
+						<ul id="notes">
+							<li>
+								<p class="no-notes">You don't have any notes.</p>
+							</li>
+						</ul>
+					</div>
+				</div>
             </div>
+        </div>
+		
+		<div id="footer">
+			<div class="clearfix1">
+				<div class="container">
+					<div class="row">
+						
+						<div class="center">
+							<p>Speech to Text Voice Note App 2018</p>
+						</div>
 
-            <div class="app align-center pt-40 width-full-100">
-                
-                    <div>
-                        <h3>Add New Note</h3>
-                        <div class="input-single">
-                            <textarea id="note-textarea" placeholder="Create a note by typing or using voice recognition" rows="6"></textarea>
-                        </div>
-                        <button id="start-record-btn" title="Start Recording">Start Recording</button>
-                        <button id="pause-record-btn" title="Pause Recording">Pause Recording</button>
-                        <button id="save-note-btn" title="Save Note">Save Note</button>
-                    </div>
-                
-                    <div class="align-center pt-40">
-                        <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
-                        <h3>My Recorded Notes</h3>
-                        <ul>
-                            <li>
-                                <p class="no-notes">You don't have any notes.</p>
-                            </li>
-                        </ul>
-                    </div>
-                
-            </div><!-- /app -->
-        
-        </div><!-- /row -->
-    </div><!-- /.container -->
-    </div>        
-    <div id="footer">
-        <div class="clearfix">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="align-center pt-40 width-full-100">
-                        <p>Speech to Text Note App 2018</p>
-                    </div>
-
-                </div><!-- /row -->
-            </div><!-- /container -->
-        </div>    
-    </div><!-- /footer -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/js/app.js"></script>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-
-</body>
+					</div><!-- /row -->
+				</div><!-- /container -->
+			</div>
+		</div><!-- /footer -->
+		
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+		
+    </body>
 </html>
+
+
