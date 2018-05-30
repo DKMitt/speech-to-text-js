@@ -7,6 +7,12 @@ p {
     color: #444;
 }
 
+button {
+        margin-bottom: 20px;
+        padding: 10px 10px;
+
+}
+
 button:focus {
     outline: 0;
 }
@@ -46,6 +52,7 @@ button:focus {
 
 #note-textarea {
     margin: 20px 0;
+    width: 80%;
 }
 
 #recording-instructions {
@@ -84,13 +91,18 @@ button:focus {
 	width: 100%;
 }
 
+ 
+
 @media (max-width: 768px) {
     .container {
         padding: 50px 25px;
     }
 
     button {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        padding: 10px 10px;
+        width: 80%;
     }
 
 }   
+
