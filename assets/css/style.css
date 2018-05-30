@@ -8,9 +8,8 @@ p {
 }
 
 button {
-        margin-bottom: 20px;
-        padding: 10px 10px;
-
+    margin-bottom: 20px;
+    padding: 10px 10px;
 }
 
 button:focus {
@@ -80,29 +79,25 @@ button:focus {
 }
 
 .align-center img {
-	padding-top: 10px;
+    padding-top: 10px;
 }
+
 .align-center {
-	text-align: center; 
+    text-align: center;
 }
 
 .center {
-	text-align: center;
-	width: 100%;
+    text-align: center;
+    width: 100%;
 }
-
- 
 
 @media (max-width: 768px) {
     .container {
         padding: 50px 25px;
     }
-
     button {
         margin-bottom: 20px;
         padding: 10px 10px;
         width: 80%;
     }
-
-}   
-
+}
