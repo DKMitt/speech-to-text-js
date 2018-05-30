@@ -9,7 +9,7 @@ This app uses the Web Speech API to build a voice powered note app to do 3 thing
  - Save voice notes to localStorage.
  - Display all of the saved notes and give the option to either listen or delete them.
 
-![Voice Note App](blob/master/assets/img/vna-1.gif)
+![Voice Note App](blob/master/public/assets/img/vna-1.gif)
 
 
 __Project Status - Completed: 05/28/2018__
