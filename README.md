@@ -91,7 +91,9 @@ Description of website technologies used to develop this app.
 │   │
 │   ├── img
 │   │   │
-│   │   └── code-mic-150.png
+│   │   ├── code-mic-150.png
+│   │   │
+│   │   └── vna-1.gif
 │   │
 │   └── js
 │       │
@@ -112,8 +114,8 @@ Description of website technologies used to develop this app.
 
 Description of revisions - __Completed: 05/28/2018__
 
-  - [x] Dev - file and directory structure updated - 05/28/2018
+  - [x] Dev - file and directory structure updated - 05/30/2018
   - [x] Dev - starting code - 04/06/2018
-  - [x] Dev - styling update - 05/28/2018
-  - [x] Dev - completed code - 05/28/2018
-  - [x] Dev - readme update - 05/28/2018
+  - [x] Dev - styling update - 05/30/2018
+  - [x] Dev - completed code - 05/30/2018
+  - [x] Dev - readme update - 05/30/2018
