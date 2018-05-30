@@ -1,19 +1,20 @@
 ## Voice Note App
 ### Converting from Speech to Text with JavaScript
 
-The purpose of this app is to experiment with the Web Speech API by using the browser interface which allows you to record human speech and convert it into text and then convert the text back into speech. 
+The purpose of this app is to experiment with the Web Speech API by using the browser interface which allows you to record human speech and convert it into text and be able to play it back using SpeechSynthesis interface with a human like speech. 
 
-This app will use the Web Speech API to build a voice powered note app to do 3 things:
+This app uses the Web Speech API to build a voice powered note app to do 3 things:
 
  - Takes notes by using voice-to-text or keyboard input.
  - Save voice notes to localStorage.
  - Display all of the saved notes and give the option to either listen or delete them.
 
-[Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app) 
+![Voice Note App](public/assets/img/vna-1.gif)
 
 
-__Project Status - Completed & Working: 05/28/2018__
+__Project Status - Completed: 05/28/2018__
 
+[Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app/index.html) 
 
 ----
 
@@ -32,7 +33,6 @@ __Project Status - Completed & Working: 05/28/2018__
 ### Description
 
 The Web Speech API will be separated into two seperate interfaces. The first will be the SpeechRecognition for understanding a human voice and turning it into text. The second will be the SpeechSynthesis for reading strings of text out loud in a computer generated voice.
-
 
 
 ----
@@ -60,13 +60,20 @@ Description of website technologies used to develop this app.
 
 ### How to Use This App
 
-How to use this App:
+### To Add A New Voice or Text Note
+1. ​Click on the Start Recognition Button and give the app permission to use your microphone, and start speaking your note (if no microphone or you don't want to use the microphone you can type into the text box.)
 
-1. ​
-2. ​
-3. ​
+2. ​When done speaking click on the "Pause Recognition" button, and then click the "Save Note" button. (if you you typed your note in to the text box you do not need to click on the "Pause Recognition" button, just click the "Save Note" button.) 
 
-  [Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app) 
+### To Play Back or Listen To The Notes
+1. Click on the "Listen to Note" link next to the date of the note that you want to play back or listen to.
+
+### To Delete Voice Notes
+1. Click on the "Delete" link next to the date of the note that you want to delete.
+
+
+
+  [Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app/index.html) 
 
 ### File and Directory Structure
 
@@ -103,7 +110,7 @@ How to use this App:
 
 ### Revision History 
 
-Description of revisions - __Completed & Working: 05/28/2018__
+Description of revisions - __Completed: 05/28/2018__
 
   - [x] Dev - file and directory structure updated - 05/28/2018
   - [x] Dev - starting code - 04/06/2018
