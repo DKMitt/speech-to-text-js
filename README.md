@@ -21,6 +21,8 @@ __Project Status - Completed: 05/31/2018__
 
 __Note:__ On Chrome, using Speech Recognition on a web page involves a server-based recognition engine. Your audio is sent to a web service for recognition processing, so it won't work offline.
 <br>
+Most APIs that require user permission don't work on non-secure hosts. Make sure you are serving your Web Speech apps over HTTPS.
+<br>
 
 ----
 
@@ -98,6 +100,8 @@ Description of website technologies used to develop this app.
 [Demo - Click Here](https://www.dkmitt.com/mycoding/voice-note-app/index.html) - __Best Used with Chrome__
 
 __Note:__ On Chrome, using Speech Recognition on a web page involves a server-based recognition engine. Your audio is sent to a web service for recognition processing, so it won't work offline.
+<br>
+Most APIs that require user permission don't work on non-secure hosts. Make sure you are serving your Web Speech apps over HTTPS.
 <br>
 
 
